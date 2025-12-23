@@ -11,7 +11,7 @@
 ## 💫 About Me
 
 ### 🔧 What I am currently working on
-- **Talos Blockchain Protocol** - E2E encryption over Talos BCP
+- **Talos Blockchain Protocol** - E2E encryption over Talos Blockchain Protocol
 - **Codenuim** - visualized data structure and algorithm learning platform
 - **MindFlip AI** This is an AI native system for workflow automation, semantic learning, spaced repetition, and natural language to infrastructure creation.  
 - AI agents that build Terraform, AWS infrastructure, Kubernetes configurations, CI or CD pipelines, and architecture diagrams.  
