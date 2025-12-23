@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2800&pause=800&color=00B8FF&center=true&vCenter=true&width=600&lines=Hi%2C+I+am+Nilesh+Chakraborty+👋;Principal+Engineer;AI+Infra+Architect;DevOps+Automation+Builder;Creator+of+MindFlow+AI" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2800&pause=800&color=00B8FF&center=true&vCenter=true&width=600&lines=Hi%2C+I+am+Nilesh+Chakraborty+👋;Principal+Engineer;AI+Infra+Architect;DevOps+Automation+Builder;Creator+of+MindFlip+AI;Building+Talos+BL+Protocol" />
 </h1>
 
 <p align="center">
@@ -11,21 +11,23 @@
 ## 💫 About Me
 
 ### 🔧 What I am currently working on
-- **MindFlow AI**, also known as Flash Card Study Helper AI and MindFlip AI. This is an AI native system for workflow automation, semantic learning, spaced repetition, and natural language to infrastructure creation.  
+- **Talos Blockchain Protocol** - E2E encryption over Talos BCP
+- **Codenuim** - visualized data structure and algorithm learning platform
+- **MindFlip AI** This is an AI native system for workflow automation, semantic learning, spaced repetition, and natural language to infrastructure creation.  
 - AI agents that build Terraform, AWS infrastructure, Kubernetes configurations, CI or CD pipelines, and architecture diagrams.  
 - High performance backend systems, distributed cloud systems, and AI assisted DevOps automation tools.
 
 ---
 
 ### 🤝 Collaboration interests
-- Open source work in AI infrastructure, developer tools, DevOps automation, and LLM orchestration.  
+- Open source work in Blockchain, AI infrastructure, developer tools, DevOps automation, and LLM orchestration.  
 - Engineering heavy systems focused on large scale backend and cloud native workloads.  
 - Early stage founders creating edtech, devtools, cloud automation, and AI first engineering platforms.
 
 ---
 
 ### 🆘 I am looking for help with
-- Growing MindFlow AI through contributors, user testing, and early feedback.  
+- Growing MindFlip AI through contributors, user testing, and early feedback.  
 - Collaborating with engineers who have experience in LLM infra, embeddings, retrieval systems, and hybrid inference.  
 - Exploring India focused GTM and B2B opportunities in AI based learning and cloud automation.
 
