@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2800&pause=800&color=00B8FF&center=true&vCenter=true&width=600&lines=Hi%2C+I+am+Nilesh+Chakraborty+👋;Principal+Engineer;AI+Infra+Architect;DevOps+Automation+Builder;Creator+of+MindFlip+AI;Building+Talos+BL+Protocol" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2800&pause=800&color=00B8FF&center=true&vCenter=true&width=600&lines=Hi%2C+I+am+Nilesh+Chakraborty+👋;Principal+Engineer;AI+Infra+Architect;DevOps+Automation+Builder;Creator+of+MindFlip+AI;Building+Talos+BM+Protocol" />
 </h1>
 
 <p align="center">
@@ -11,7 +11,7 @@
 ## 💫 About Me
 
 ### 🔧 What I am currently working on
-- **Talos Blockchain Protocol** - E2E encryption over Talos Blockchain Protocol
+- **Talos Blockchain Messaging Protocol** - E2E encryption over Talos Blockchain Protocol to secure MCP communication
 - **Codenuim** - visualized data structure and algorithm learning platform
 - **MindFlip AI** This is an AI native system for workflow automation, semantic learning, spaced repetition, and natural language to infrastructure creation.  
 - AI agents that build Terraform, AWS infrastructure, Kubernetes configurations, CI or CD pipelines, and architecture diagrams.  
