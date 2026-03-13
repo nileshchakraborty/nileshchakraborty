@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2800&pause=800&color=00B8FF&center=true&vCenter=true&width=600&lines=Hi%2C+I+am+Nilesh+Chakraborty+👋;Principal+Engineer;AI+Infra+Architect;DevOps+Automation+Builder;Creator+of+MindFlip+AI;Building+Talos+BM+Protocol" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2800&pause=800&color=00B8FF&center=true&vCenter=true&width=600&lines=Hi%2C+I+am+Nilesh+Chakraborty+👋;Principal+Engineer;AI+Infra+Architect;DevOps+Automation+Builder;Creator+of+MindFlip+AI;Building+Talos+A2A+MCP+UCP+Protocol" />
 </h1>
 
 <p align="center">
