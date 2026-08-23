@@ -21,19 +21,64 @@ testing, and operations.
 
 My recurring themes are secure AI-agent communication, local and hybrid AI,
 developer automation, distributed systems, and tools that make difficult ideas
-easier to understand. That same systems mindset also shows up in my work on
-Streambert and in upstream Bazzite improvements: reproduce the real problem,
-make the smallest durable change, and test it where it actually runs.
+easier to understand. That same systems mindset guides my work on Streambert
+and other cross-platform systems: reproduce the real problem, make the smallest
+durable change, and test it where it actually runs.
 
 ```text
 design the contract  →  build the system  →  test the failure modes  →  ship the fix
 ```
 
-## What I’m building
+## Featured impact
+
+<table>
+  <tr>
+    <td width="62%" valign="top">
+      <sub>FLAGSHIP / CO-FOUNDER</sub>
+      <h3>Talos Protocol</h3>
+      <p>
+        A security, communication, and trust layer for autonomous AI agents.
+        Talos brings decentralized identity, capability-based authorization,
+        encrypted agent-to-agent channels, policy enforcement, and verifiable
+        audit trails into one contract-driven system.
+      </p>
+      <p>
+        The work spans protocol contracts, a Rust security core, SDKs, gateway
+        and audit services, MCP/A2A integration, observability, resilience, and
+        a production control plane.
+      </p>
+      <p>
+        <a href="https://talosprotocol.com"><strong>Website</strong></a>
+        ·
+        <a href="https://github.com/talosprotocol/talos"><strong>Source</strong></a>
+      </p>
+    </td>
+    <td width="38%" valign="top">
+      <sub>OPEN SOURCE / MERGED UPSTREAM</sub>
+      <h3>Bazzite</h3>
+      <p>
+        Four fixes developed from real ROG Xbox Ally X testing and merged into
+        Bazzite:
+      </p>
+      <ul>
+        <li><a href="https://github.com/ublue-os/bazzite/pull/5553">Native Steam input without OGUI</a></li>
+        <li><a href="https://github.com/ublue-os/bazzite/pull/5556">Plasma virtual keyboard restoration</a></li>
+        <li><a href="https://github.com/ublue-os/bazzite/pull/5558">Correct Game Mode news channels</a></li>
+        <li><a href="https://github.com/ublue-os/bazzite/pull/5560">Scoped OpenGamepadUI debug logging</a></li>
+      </ul>
+      <p>
+        Each change came with device evidence, focused validation, and a small
+        upstream-ready patch.
+      </p>
+      <p><a href="https://github.com/ublue-os/bazzite"><strong>Explore Bazzite</strong></a></p>
+    </td>
+  </tr>
+</table>
+
+## Products and applied systems
 
 | Project | What it does | Core ideas |
 | --- | --- | --- |
-| **[Talos Protocol](https://github.com/talosprotocol/talos)** | A trust and communication layer for autonomous agents, with decentralized identity, capability-based authorization, encrypted channels, and verifiable audit trails. | Agent security · A2A · MCP · cryptography · contract-first architecture |
 | **[Codenium](https://github.com/nileshchakraborty/codenium)** · **[Live](https://codenium.vercel.app/)** | Makes algorithms and interview patterns visual through step-by-step animation, AI tutoring, multi-language execution, and a library of 250+ problems. | TypeScript · React · Node.js · visualization · AI-assisted learning |
 | **[MindFlip AI](https://github.com/nileshchakraborty/mindflipai)** | A clean-architecture study system for generating flashcards and quizzes with local-first and hybrid model runtimes. | TypeScript · Ollama · WebLLM · GraphQL · queues and caching |
 | **[Appointment Notifier](https://github.com/nileshchakraborty/appointment-notifier)** | Watches appointment signals, filters noise, deduplicates events, and delivers alerts across Telegram, email, SMS, WhatsApp, and iMessage. | Python · SQLite · Docker · OCR · multi-channel automation |
