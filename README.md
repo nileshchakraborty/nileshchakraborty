@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=760&lines=Principal+Engineer+at+Salesforce;Co-founder+of+Talos+Protocol;Building+AI+systems+that+earn+trust;From+protocols+to+products+to+production" alt="Animated introduction" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=760&lines=Principal+Engineer+at+Salesforce;Founder+%26+owner+of+Talos+Protocol;Building+AI+systems+that+earn+trust;From+protocols+to+products+to+production" alt="Animated introduction" />
 </p>
 
 <p align="center">
@@ -14,8 +14,8 @@
 
 ## Hello, I’m Nilesh
 
-I’m a Principal Engineer at Salesforce and co-founder of
-[Talos Protocol](https://github.com/talosprotocol/talos). I build systems across
+I’m a Principal Engineer at Salesforce and the founder and owner of
+[Talos Protocol](https://github.com/talosprotocol). I build systems across
 the whole path from protocol and backend design to product UX, infrastructure,
 testing, and operations.
 
@@ -34,7 +34,7 @@ design the contract  →  build the system  →  test the failure modes  →  sh
 <table>
   <tr>
     <td width="62%" valign="top">
-      <sub>FLAGSHIP / CO-FOUNDER</sub>
+      <sub>FLAGSHIP / FOUNDER &amp; OWNER</sub>
       <h3>Talos Protocol</h3>
       <p>
         A security, communication, and trust layer for autonomous AI agents.
@@ -49,6 +49,8 @@ design the contract  →  build the system  →  test the failure modes  →  sh
       </p>
       <p>
         <a href="https://talosprotocol.com"><strong>Website</strong></a>
+        ·
+        <a href="https://github.com/talosprotocol"><strong>Organization</strong></a>
         ·
         <a href="https://github.com/talosprotocol/talos"><strong>Source</strong></a>
       </p>
