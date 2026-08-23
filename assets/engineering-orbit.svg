@@ -1,95 +1,115 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Nilesh Chakraborty engineering orbit</title>
-  <desc id="desc">An animated systems diagram connecting trust, learning, cloud, and product engineering.</desc>
+  <title id="title">Nilesh Chakraborty engineering pipeline</title>
+  <desc id="desc">An animated signal moves through four engineering stages: contract, build, verify, and ship.</desc>
+
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070B16"/>
-      <stop offset="0.48" stop-color="#10172B"/>
-      <stop offset="1" stop-color="#090D19"/>
+      <stop offset="0.52" stop-color="#10172A"/>
+      <stop offset="1" stop-color="#090D18"/>
     </linearGradient>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#39D0D8">
-        <animate attributeName="stop-color" values="#39D0D8;#7C5CFC;#39D0D8" dur="7s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.5" stop-color="#8BE9FD">
-        <animate attributeName="stop-color" values="#8BE9FD;#FF79C6;#8BE9FD" dur="7s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#7C5CFC">
-        <animate attributeName="stop-color" values="#7C5CFC;#39D0D8;#7C5CFC" dur="7s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="flow-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39D0D8"/>
+      <stop offset="0.5" stop-color="#8BE9FD"/>
+      <stop offset="1" stop-color="#7C5CFC"/>
     </linearGradient>
-    <radialGradient id="core" cx="50%" cy="45%" r="60%">
-      <stop offset="0" stop-color="#1C3650"/>
-      <stop offset="0.65" stop-color="#111A31"/>
-      <stop offset="1" stop-color="#0D1224"/>
-    </radialGradient>
+    <linearGradient id="card-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172137"/>
+      <stop offset="1" stop-color="#0D1425"/>
+    </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#8BE9FD" stroke-opacity="0.055"/>
+      <path d="M32 0H0V32" fill="none" stroke="#8BE9FD" stroke-opacity="0.045"/>
     </pattern>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <path id="orbit-a" d="M284 170C284 70 430 27 600 27S916 70 916 170 770 313 600 313 284 270 284 170Z"/>
-    <path id="orbit-b" d="M376 170C376 92 476 58 600 58S824 92 824 170 724 282 600 282 376 248 376 170Z"/>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5 0 10Z" fill="#59CBD7"/>
+    </marker>
+    <path id="signal-path" d="M180 135H1020"/>
     <style>
-      .orbit { animation: dash 18s linear infinite; }
-      .orbit.reverse { animation-direction: reverse; animation-duration: 13s; }
-      .pulse { animation: pulse 3s ease-in-out infinite; transform-origin: center; }
-      .float-a { animation: float-a 6s ease-in-out infinite; }
-      .float-b { animation: float-b 7s ease-in-out infinite; }
-      @keyframes dash { to { stroke-dashoffset: -220; } }
-      @keyframes pulse { 0%,100% { opacity:.55; transform:scale(.97); } 50% { opacity:1; transform:scale(1.03); } }
-      @keyframes float-a { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-6px); } }
-      @keyframes float-b { 0%,100% { transform:translateY(0); } 50% { transform:translateY(7px); } }
-      @media (prefers-reduced-motion: reduce) { .orbit,.pulse,.float-a,.float-b { animation:none; } }
+      .flow-line { animation: flow 1.4s linear infinite; }
+      .stage { opacity: .72; animation: activate 8s ease-in-out infinite; }
+      .stage-1 { animation-delay: 0s; }
+      .stage-2 { animation-delay: 2s; }
+      .stage-3 { animation-delay: 4s; }
+      .stage-4 { animation-delay: 6s; }
+      .cursor { animation: blink 1s steps(2, jump-none) infinite; }
+      @keyframes flow { to { stroke-dashoffset: -36; } }
+      @keyframes activate { 0%,18% { opacity:1; } 24%,100% { opacity:.72; } }
+      @keyframes blink { 50% { opacity:.2; } }
+      @media (prefers-reduced-motion: reduce) {
+        .flow-line,.stage,.cursor { animation:none; }
+        .moving-signal { display:none; }
+      }
     </style>
   </defs>
 
   <rect width="1200" height="340" rx="24" fill="url(#background)"/>
   <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
-  <circle cx="150" cy="62" r="82" fill="#39D0D8" opacity="0.055" filter="url(#glow)" class="pulse"/>
-  <circle cx="1058" cy="278" r="96" fill="#7C5CFC" opacity="0.07" filter="url(#glow)" class="pulse"/>
+  <path d="M0 119H1200" stroke="#8BE9FD" stroke-opacity="0.08"/>
 
-  <use href="#orbit-a" fill="none" stroke="url(#signal)" stroke-width="1.6" stroke-dasharray="7 12" opacity="0.62" class="orbit"/>
-  <use href="#orbit-b" fill="none" stroke="url(#signal)" stroke-width="1.2" stroke-dasharray="4 11" opacity="0.42" class="orbit reverse"/>
+  <text x="56" y="58" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="36" font-weight="750" letter-spacing=".5">NILESH CHAKRABORTY</text>
+  <text x="58" y="89" fill="#8BE9FD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2">PRINCIPAL ENGINEER · AGENT SECURITY · DISTRIBUTED SYSTEMS</text>
+  <rect x="921" y="37" width="224" height="48" rx="24" fill="#111A2C" stroke="#7C5CFC" stroke-opacity="0.75"/>
+  <circle cx="948" cy="61" r="5" fill="#39D0D8" class="cursor"/>
+  <text x="965" y="66" fill="#DDE7FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="1.5">SYSTEMS ONLINE</text>
 
-  <circle r="5" fill="#8BE9FD" filter="url(#glow)">
-    <animateMotion dur="9s" repeatCount="indefinite"><mpath href="#orbit-a"/></animateMotion>
-  </circle>
-  <circle r="4" fill="#FF79C6" filter="url(#glow)">
-    <animateMotion dur="7s" begin="-3s" repeatCount="indefinite"><mpath href="#orbit-b"/></animateMotion>
-  </circle>
+  <path d="M180 135H1020" fill="none" stroke="#273753" stroke-width="4"/>
+  <path d="M180 135H1020" fill="none" stroke="url(#flow-gradient)" stroke-width="2" stroke-dasharray="12 12" stroke-dashoffset="0" class="flow-line"/>
+  <path d="M180 135V151M460 135V151M740 135V151M1020 135V151" fill="none" stroke="url(#flow-gradient)" stroke-width="2"/>
+  <path d="M306 211H330" fill="none" stroke="#59CBD7" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M586 211H610" fill="none" stroke="#59CBD7" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M866 211H890" fill="none" stroke="#776DEB" stroke-width="2" marker-end="url(#arrow)"/>
 
-  <g class="float-a">
-    <rect x="86" y="129" width="126" height="50" rx="25" fill="#111A2C" stroke="#39D0D8" stroke-opacity="0.75"/>
-    <circle cx="111" cy="154" r="5" fill="#39D0D8" class="pulse"/>
-    <text x="128" y="160" fill="#D9F9FB" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2">TRUST</text>
-  </g>
-  <g class="float-b">
-    <rect x="988" y="129" width="126" height="50" rx="25" fill="#111A2C" stroke="#7C5CFC" stroke-opacity="0.8"/>
-    <circle cx="1013" cy="154" r="5" fill="#A78BFA" class="pulse"/>
-    <text x="1030" y="160" fill="#EEE8FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2">SHIP</text>
-  </g>
-  <g class="float-b">
-    <rect x="245" y="258" width="132" height="44" rx="22" fill="#111A2C" stroke="#FF79C6" stroke-opacity="0.65"/>
-    <text x="274" y="286" fill="#FFD7EC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.8">LEARN</text>
-  </g>
-  <g class="float-a">
-    <rect x="823" y="42" width="132" height="44" rx="22" fill="#111A2C" stroke="#8BE9FD" stroke-opacity="0.65"/>
-    <text x="855" y="70" fill="#DDFBFF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.8">BUILD</text>
+  <g class="stage stage-1">
+    <rect x="55" y="151" width="250" height="120" rx="18" fill="url(#card-gradient)" stroke="#39D0D8" stroke-width="1.5"/>
+    <text x="77" y="181" fill="#39D0D8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.8">01 / DEFINE</text>
+    <text x="77" y="218" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="700">CONTRACT</text>
+    <text x="77" y="247" fill="#99A8C6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">identity · policy · API</text>
+    <path d="M257 179H278V239H234V179H257L278 200H257Z" fill="none" stroke="#65E2E7" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M244 214H268M244 224H268" stroke="#65E2E7" stroke-width="2" stroke-linecap="round"/>
   </g>
 
-  <g class="pulse">
-    <circle cx="600" cy="170" r="108" fill="url(#core)" stroke="url(#signal)" stroke-width="2"/>
-    <circle cx="600" cy="170" r="98" fill="none" stroke="#8BE9FD" stroke-opacity="0.18" stroke-dasharray="2 9"/>
+  <g class="stage stage-2">
+    <rect x="335" y="151" width="250" height="120" rx="18" fill="url(#card-gradient)" stroke="#58C7E8" stroke-width="1.5"/>
+    <text x="357" y="181" fill="#58C7E8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.8">02 / CREATE</text>
+    <text x="357" y="218" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="700">BUILD</text>
+    <text x="357" y="247" fill="#99A8C6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">services · data · UX</text>
+    <rect x="516" y="183" width="42" height="42" rx="8" fill="none" stroke="#75DDF5" stroke-width="2"/>
+    <path d="M526 205L534 213 549 195" fill="none" stroke="#75DDF5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M537 175V183M537 225V233M508 204H516M558 204H566" stroke="#75DDF5" stroke-width="2" stroke-linecap="round"/>
   </g>
 
-  <text x="600" y="151" text-anchor="middle" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="38" font-weight="750" letter-spacing="1">NILESH CHAKRABORTY</text>
-  <text x="600" y="184" text-anchor="middle" fill="#8BE9FD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2.2">ENGINEER · ARCHITECT · BUILDER</text>
-  <text x="600" y="215" text-anchor="middle" fill="#AAB6D3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">secure agents  ·  learning systems  ·  developer infrastructure</text>
+  <g class="stage stage-3">
+    <rect x="615" y="151" width="250" height="120" rx="18" fill="url(#card-gradient)" stroke="#767DEB" stroke-width="1.5"/>
+    <text x="637" y="181" fill="#9A9FF5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.8">03 / PROVE</text>
+    <text x="637" y="218" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="700">VERIFY</text>
+    <text x="637" y="247" fill="#99A8C6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">tests · failure modes</text>
+    <path d="M817 180L840 189V207C840 222 831 232 817 239 803 232 794 222 794 207V189Z" fill="none" stroke="#AAA6FF" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M806 208L814 216 829 198" fill="none" stroke="#AAA6FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 
-  <path d="M18 316H1182" stroke="url(#signal)" stroke-width="1" opacity="0.25"/>
-  <text x="32" y="325" fill="#6D7895" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">SYSTEM STATUS: BUILDING</text>
-  <text x="1168" y="325" text-anchor="end" fill="#6D7895" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">SAN JOSE, CA</text>
+  <g class="stage stage-4">
+    <rect x="895" y="151" width="250" height="120" rx="18" fill="url(#card-gradient)" stroke="#7C5CFC" stroke-width="1.5"/>
+    <text x="917" y="181" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.8">04 / DELIVER</text>
+    <text x="917" y="218" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="700">SHIP</text>
+    <text x="917" y="247" fill="#99A8C6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">observe · improve</text>
+    <path d="M1095 231V185M1077 203L1095 185 1113 203M1078 231H1112" fill="none" stroke="#B59AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g class="moving-signal" filter="url(#glow)">
+    <circle r="7" fill="#FFFFFF"/>
+    <circle r="13" fill="none" stroke="#8BE9FD" stroke-opacity="0.55">
+      <animate attributeName="r" values="9;16;9" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".8;.1;.8" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <animateMotion dur="8s" repeatCount="indefinite" keyTimes="0;.33;.66;1" keySplines=".4 0 .2 1;.4 0 .2 1;.4 0 .2 1" calcMode="spline">
+      <mpath href="#signal-path"/>
+    </animateMotion>
+  </g>
+
+  <text x="56" y="316" fill="#6F7D99" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1">DESIGN THE CONTRACT  →  TEST THE BOUNDARY  →  SHIP THE EVIDENCE</text>
+  <text x="1144" y="316" text-anchor="end" fill="#6F7D99" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SAN JOSE, CA</text>
 </svg>
