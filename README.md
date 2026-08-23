@@ -14,7 +14,7 @@
 
 ## Hello, I’m Nilesh
 
-I’m a Principal Engineer at Salesforce and the founder and owner of
+I’m a Software Engineer at Salesforce and the founder and owner of
 [Talos Protocol](https://github.com/talosprotocol). I build systems across
 the whole path from protocol and backend design to product UX, infrastructure,
 testing, and operations.
@@ -63,7 +63,7 @@ design the contract  →  build the system  →  test the failure modes  →  sh
 | Project | What it does | Core ideas |
 | --- | --- | --- |
 | **[Codenium](https://github.com/nileshchakraborty/codenium)** · **[Live](https://codenium.vercel.app/)** | Makes algorithms and interview patterns visual through step-by-step animation, AI tutoring, multi-language execution, and a library of 250+ problems. | TypeScript · React · Node.js · visualization · AI-assisted learning |
-| **[Bazzite](https://github.com/ublue-os/bazzite)** · **[4 merged PRs](https://github.com/ublue-os/bazzite/pulls?q=is%3Apr+author%3Anileshchakraborty+is%3Amerged)** | Upstream fixes validated on a ROG Xbox Ally X, covering Steam input, Plasma keyboard behavior, Game Mode news channels, and scoped OpenGamepadUI diagnostics. | Linux · gaming handhelds · Steam · KDE Plasma · hardware validation |
+| **[Bazzite](https://github.com/ublue-os/bazzite)** · | Upstream fixes validated on a ROG Xbox Ally X, covering Steam input, Plasma keyboard behavior, Game Mode news channels, and scoped OpenGamepadUI diagnostics. | Linux · gaming handhelds · Steam · KDE Plasma · hardware validation |
 | **[MindFlip AI](https://github.com/nileshchakraborty/mindflipai)** | A clean-architecture study system for generating flashcards and quizzes with local-first and hybrid model runtimes. | TypeScript · Ollama · WebLLM · GraphQL · queues and caching |
 | **[Appointment Notifier](https://github.com/nileshchakraborty/appointment-notifier)** | Watches appointment signals, filters noise, deduplicates events, and delivers alerts across Telegram, email, SMS, WhatsApp, and iMessage. | Python · SQLite · Docker · OCR · multi-channel automation |
 | **[AIDOC](https://github.com/nileshchakraborty/ai-health-tracker)** | A privacy-first health assistant that combines local AI, wearable data, GraphQL, and a mobile client. | TypeScript · React Native · Ollama · Oura · local AI |
