@@ -1,96 +1,101 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2800&pause=800&color=00B8FF&center=true&vCenter=true&width=600&lines=Hi%2C+I+am+Nilesh+Chakraborty+👋;Principal+Engineer;AI+Infra+Architect;DevOps+Automation+Builder;Creator+of+MindFlip+AI;Building+Talos+A2A+MCP+UCP+Protocol" />
-</h1>
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=90&color=0:00C6FF,100:0072FF&section=header" />
-</p>
-
----
-
-## 💫 About Me
-
-### 🔧 What I am currently working on
-- **Talos A2A/UCP/MCP Protocol** - E2E encryption over Talos to secure MCP/UCP/A2A communication
-- **Codenuim** - visualized data structure and algorithm learning platform
-- **MindFlip AI** This is an AI native system for workflow automation, semantic learning, spaced repetition, and natural language to infrastructure creation.  
-- AI agents that build Terraform, AWS infrastructure, Kubernetes configurations, CI or CD pipelines, and architecture diagrams.  
-- High performance backend systems, distributed cloud systems, and AI assisted DevOps automation tools.
-
----
-
-### 🤝 Collaboration interests
-- Open source work in Blockchain, AI infrastructure, developer tools, DevOps automation, and LLM orchestration.  
-- Engineering heavy systems focused on large scale backend and cloud native workloads.  
-- Early stage founders creating edtech, devtools, cloud automation, and AI first engineering platforms.
-
----
-
-### 🆘 I am looking for help with
-- Growing MindFlip AI through contributors, user testing, and early feedback.  
-- Collaborating with engineers who have experience in LLM infra, embeddings, retrieval systems, and hybrid inference.  
-- Exploring India focused GTM and B2B opportunities in AI based learning and cloud automation.
-
----
-
-### 🌱 I am currently learning
-- Advanced LLM architecture, memory structures, and hybrid inference in browser and server.  
-- Distributed systems focused on low latency and high throughput.  
-- Cloud cost optimization and scaled DevOps automation.  
-- Product strategy and growth frameworks for AI powered developer tools.
-
----
-
-### 💬 Ask me about
-- High performance backend architecture and distributed systems.  
-- AWS, Kubernetes, Terraform, and CI or CD pipeline design.  
-- LLM driven DevOps automation and AI generated infrastructure.  
-- Building products from idea to production as a founder engineer.  
-- Designing spaced repetition systems and AI based learning workflows.
-
----
-
-### ⚡ Fun fact
-I created my AI learning and automation platform to help myself learn faster, automate faster, and ship faster. It now helps every engineer who uses it.
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=Tech%20Stack%20%E2%9A%99%EF%B8%8F&fontColor=ffffff&width=300&height=70&section=header&fontSize=28&gradient=0:00C6FF,100:0072FF" />
+  <img src="./assets/engineering-orbit.svg" alt="Nilesh Chakraborty — secure agents, learning systems, developer tools, and cloud platforms" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,go,aws,docker,kubernetes,terraform,react,nextjs,fastapi,postgres,mongodb,redis,githubactions,jenkins,gradle,git" />
-</p>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=nileshchakraborty&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://nirzak-streak-stats.vercel.app/?user=nileshchakraborty&theme=tokyonight&hide_border=true" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=760&lines=Principal+Engineer+at+Salesforce;Co-founder+of+Talos+Protocol;Building+AI+systems+that+earn+trust;From+protocols+to+products+to+production" alt="Animated introduction" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nileshchakraborty&theme=react-dark&hide_border=true&area=true&area_color=0072FF" />
+  <a href="https://talosprotocol.com"><img src="https://img.shields.io/badge/Talos_Protocol-0D1117?style=for-the-badge&logo=protonmail&logoColor=39D0D8" alt="Talos Protocol" /></a>
+  <a href="https://linkedin.com/in/chakrabortynilesh"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/cnilesh90"><img src="https://img.shields.io/badge/@cnilesh90-0D1117?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
----
+## Hello, I’m Nilesh
+
+I’m a Principal Engineer at Salesforce and co-founder of
+[Talos Protocol](https://github.com/talosprotocol/talos). I build systems across
+the whole path from protocol and backend design to product UX, infrastructure,
+testing, and operations.
+
+My recurring themes are secure AI-agent communication, local and hybrid AI,
+developer automation, distributed systems, and tools that make difficult ideas
+easier to understand. That same systems mindset also shows up in my work on
+Streambert and in upstream Bazzite improvements: reproduce the real problem,
+make the smallest durable change, and test it where it actually runs.
+
+```text
+design the contract  →  build the system  →  test the failure modes  →  ship the fix
+```
+
+## What I’m building
+
+| Project | What it does | Core ideas |
+| --- | --- | --- |
+| **[Talos Protocol](https://github.com/talosprotocol/talos)** | A trust and communication layer for autonomous agents, with decentralized identity, capability-based authorization, encrypted channels, and verifiable audit trails. | Agent security · A2A · MCP · cryptography · contract-first architecture |
+| **[Codenium](https://github.com/nileshchakraborty/codenium)** · **[Live](https://codenium.vercel.app/)** | Makes algorithms and interview patterns visual through step-by-step animation, AI tutoring, multi-language execution, and a library of 250+ problems. | TypeScript · React · Node.js · visualization · AI-assisted learning |
+| **[MindFlip AI](https://github.com/nileshchakraborty/mindflipai)** | A clean-architecture study system for generating flashcards and quizzes with local-first and hybrid model runtimes. | TypeScript · Ollama · WebLLM · GraphQL · queues and caching |
+| **[Appointment Notifier](https://github.com/nileshchakraborty/appointment-notifier)** | Watches appointment signals, filters noise, deduplicates events, and delivers alerts across Telegram, email, SMS, WhatsApp, and iMessage. | Python · SQLite · Docker · OCR · multi-channel automation |
+| **[AIDOC](https://github.com/nileshchakraborty/ai-health-tracker)** | A privacy-first health assistant that combines local AI, wearable data, GraphQL, and a mobile client. | TypeScript · React Native · Ollama · Oura · local AI |
+| **[WebShield](https://github.com/nileshchakraborty/webshieldip)** | An assessment-integrity platform built around probabilistic signals, challenge-response anchors, explicit privacy controls, and governance. | Python · TypeScript · Postgres · Qdrant · Neo4j |
+
+## More things I’ve shipped
+
+- **[PDF Manager](https://github.com/nileshchakraborty/pdf-manager)** — conversion, compression, merging, editing, export, and browser-based PDF workflows.
+- **[Concierge Agent](https://github.com/nileshchakraborty/concierge-ai-agent)** — a modular FastAPI assistant with search, browsing, local-model summarization, retries, circuit breakers, and dependency diagnostics.
+- **[Blockchain Messaging Protocol](https://github.com/nileshchakraborty/blockchain-messaging-protocol)** — an experimental P2P messaging framework using signatures, end-to-end encryption, and ledger-backed integrity.
+- **[Flutter + p5 boilerplate](https://github.com/nileshchakraborty/flutter-p5-boilerplate)** — a bridge between Flutter applications and creative-coding sketches across mobile and web.
+- **[littleosbook](https://github.com/nileshchakraborty/littleosbook)** — an earlier C and Assembly exploration of kernels, bootstrapping, and systems fundamentals.
+
+<details>
+<summary><strong>The longer arc</strong></summary>
+
+I started with Java services, web applications, mobile experiments, sentiment
+analysis, and a small operating-system implementation. That foundation grew
+into cloud platforms, DevOps automation, full-stack TypeScript and Python
+products, local AI, agent protocols, and open-source systems work.
+
+[Browse all public repositories →](https://github.com/nileshchakraborty?tab=repositories)
+
+</details>
+
+## Engineering toolbox
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://skillicons.dev/icons?i=java,python,ts,rust,go,dart,react,nextjs,fastapi,postgres,redis&perline=11" alt="Languages and application technologies" />
 </p>
 
----
-
-## 🌐 Socials
 <p align="center">
-  <a href="https://linkedin.com/in/chakrabortynilesh">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,githubactions,jenkins,gradle,git,linux,grafana,prometheus&perline=11" alt="Cloud, infrastructure, delivery, and observability technologies" />
 </p>
 
+I’m happiest working where product behavior meets systems constraints:
+
+- security boundaries, contracts, identity, and authorization;
+- high-throughput services, resilience, observability, and cloud delivery;
+- AI orchestration, local inference, retrieval, and human-centered learning;
+- reproducible debugging across applications, operating systems, and hardware.
+
+## Let’s collaborate
+
+I’m interested in engineering-heavy open-source work around agent security,
+developer tools, AI infrastructure, learning systems, and cloud automation. If
+you are building something ambitious in one of those spaces, I’m always happy
+to compare notes or review a difficult systems problem.
+
+## Activity
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=wave&height=100&color=0:0072FF,100:00C6FF&section=footer" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nileshchakraborty&theme=react-dark&hide_border=true&area=true&area_color=39D0D8&color=8BE9FD&line=7C5CFC&point=FFFFFF" alt="Nilesh's GitHub activity graph" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nileshchakraborty/nileshchakraborty/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nileshchakraborty/nileshchakraborty/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated contribution graph" src="https://raw.githubusercontent.com/nileshchakraborty/nileshchakraborty/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<p align="center">
+  <sub>Build deeply. Test honestly. Leave the system better than you found it.</sub>
 </p>

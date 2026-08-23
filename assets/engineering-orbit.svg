@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Nilesh Chakraborty engineering orbit</title>
+  <desc id="desc">An animated systems diagram connecting trust, learning, cloud, and product engineering.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B16"/>
+      <stop offset="0.48" stop-color="#10172B"/>
+      <stop offset="1" stop-color="#090D19"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39D0D8">
+        <animate attributeName="stop-color" values="#39D0D8;#7C5CFC;#39D0D8" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#8BE9FD">
+        <animate attributeName="stop-color" values="#8BE9FD;#FF79C6;#8BE9FD" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#7C5CFC">
+        <animate attributeName="stop-color" values="#7C5CFC;#39D0D8;#7C5CFC" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#1C3650"/>
+      <stop offset="0.65" stop-color="#111A31"/>
+      <stop offset="1" stop-color="#0D1224"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8BE9FD" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="orbit-a" d="M284 170C284 70 430 27 600 27S916 70 916 170 770 313 600 313 284 270 284 170Z"/>
+    <path id="orbit-b" d="M376 170C376 92 476 58 600 58S824 92 824 170 724 282 600 282 376 248 376 170Z"/>
+    <style>
+      .orbit { animation: dash 18s linear infinite; }
+      .orbit.reverse { animation-direction: reverse; animation-duration: 13s; }
+      .pulse { animation: pulse 3s ease-in-out infinite; transform-origin: center; }
+      .float-a { animation: float-a 6s ease-in-out infinite; }
+      .float-b { animation: float-b 7s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset: -220; } }
+      @keyframes pulse { 0%,100% { opacity:.55; transform:scale(.97); } 50% { opacity:1; transform:scale(1.03); } }
+      @keyframes float-a { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-6px); } }
+      @keyframes float-b { 0%,100% { transform:translateY(0); } 50% { transform:translateY(7px); } }
+      @media (prefers-reduced-motion: reduce) { .orbit,.pulse,.float-a,.float-b { animation:none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <circle cx="150" cy="62" r="82" fill="#39D0D8" opacity="0.055" filter="url(#glow)" class="pulse"/>
+  <circle cx="1058" cy="278" r="96" fill="#7C5CFC" opacity="0.07" filter="url(#glow)" class="pulse"/>
+
+  <use href="#orbit-a" fill="none" stroke="url(#signal)" stroke-width="1.6" stroke-dasharray="7 12" opacity="0.62" class="orbit"/>
+  <use href="#orbit-b" fill="none" stroke="url(#signal)" stroke-width="1.2" stroke-dasharray="4 11" opacity="0.42" class="orbit reverse"/>
+
+  <circle r="5" fill="#8BE9FD" filter="url(#glow)">
+    <animateMotion dur="9s" repeatCount="indefinite"><mpath href="#orbit-a"/></animateMotion>
+  </circle>
+  <circle r="4" fill="#FF79C6" filter="url(#glow)">
+    <animateMotion dur="7s" begin="-3s" repeatCount="indefinite"><mpath href="#orbit-b"/></animateMotion>
+  </circle>
+
+  <g class="float-a">
+    <rect x="86" y="129" width="126" height="50" rx="25" fill="#111A2C" stroke="#39D0D8" stroke-opacity="0.75"/>
+    <circle cx="111" cy="154" r="5" fill="#39D0D8" class="pulse"/>
+    <text x="128" y="160" fill="#D9F9FB" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2">TRUST</text>
+  </g>
+  <g class="float-b">
+    <rect x="988" y="129" width="126" height="50" rx="25" fill="#111A2C" stroke="#7C5CFC" stroke-opacity="0.8"/>
+    <circle cx="1013" cy="154" r="5" fill="#A78BFA" class="pulse"/>
+    <text x="1030" y="160" fill="#EEE8FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2">SHIP</text>
+  </g>
+  <g class="float-b">
+    <rect x="245" y="258" width="132" height="44" rx="22" fill="#111A2C" stroke="#FF79C6" stroke-opacity="0.65"/>
+    <text x="274" y="286" fill="#FFD7EC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.8">LEARN</text>
+  </g>
+  <g class="float-a">
+    <rect x="823" y="42" width="132" height="44" rx="22" fill="#111A2C" stroke="#8BE9FD" stroke-opacity="0.65"/>
+    <text x="855" y="70" fill="#DDFBFF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1.8">BUILD</text>
+  </g>
+
+  <g class="pulse">
+    <circle cx="600" cy="170" r="108" fill="url(#core)" stroke="url(#signal)" stroke-width="2"/>
+    <circle cx="600" cy="170" r="98" fill="none" stroke="#8BE9FD" stroke-opacity="0.18" stroke-dasharray="2 9"/>
+  </g>
+
+  <text x="600" y="151" text-anchor="middle" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="38" font-weight="750" letter-spacing="1">NILESH CHAKRABORTY</text>
+  <text x="600" y="184" text-anchor="middle" fill="#8BE9FD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2.2">ENGINEER · ARCHITECT · BUILDER</text>
+  <text x="600" y="215" text-anchor="middle" fill="#AAB6D3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">secure agents  ·  learning systems  ·  developer infrastructure</text>
+
+  <path d="M18 316H1182" stroke="url(#signal)" stroke-width="1" opacity="0.25"/>
+  <text x="32" y="325" fill="#6D7895" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">SYSTEM STATUS: BUILDING</text>
+  <text x="1168" y="325" text-anchor="end" fill="#6D7895" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">SAN JOSE, CA</text>
+</svg>
