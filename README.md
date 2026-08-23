@@ -33,7 +33,7 @@ design the contract  →  build the system  →  test the failure modes  →  sh
 
 <table>
   <tr>
-    <td width="62%" valign="top">
+    <td width="100%" valign="top">
       <sub>FLAGSHIP / FOUNDER &amp; OWNER</sub>
       <h3>Talos Protocol</h3>
       <p>
@@ -55,25 +55,6 @@ design the contract  →  build the system  →  test the failure modes  →  sh
         <a href="https://github.com/talosprotocol/talos"><strong>Source</strong></a>
       </p>
     </td>
-    <td width="38%" valign="top">
-      <sub>OPEN SOURCE / MERGED UPSTREAM</sub>
-      <h3>Bazzite</h3>
-      <p>
-        Four fixes developed from real ROG Xbox Ally X testing and merged into
-        Bazzite:
-      </p>
-      <ul>
-        <li><a href="https://github.com/ublue-os/bazzite/pull/5553">Native Steam input without OGUI</a></li>
-        <li><a href="https://github.com/ublue-os/bazzite/pull/5556">Plasma virtual keyboard restoration</a></li>
-        <li><a href="https://github.com/ublue-os/bazzite/pull/5558">Correct Game Mode news channels</a></li>
-        <li><a href="https://github.com/ublue-os/bazzite/pull/5560">Scoped OpenGamepadUI debug logging</a></li>
-      </ul>
-      <p>
-        Each change came with device evidence, focused validation, and a small
-        upstream-ready patch.
-      </p>
-      <p><a href="https://github.com/ublue-os/bazzite"><strong>Explore Bazzite</strong></a></p>
-    </td>
   </tr>
 </table>
 
@@ -82,6 +63,7 @@ design the contract  →  build the system  →  test the failure modes  →  sh
 | Project | What it does | Core ideas |
 | --- | --- | --- |
 | **[Codenium](https://github.com/nileshchakraborty/codenium)** · **[Live](https://codenium.vercel.app/)** | Makes algorithms and interview patterns visual through step-by-step animation, AI tutoring, multi-language execution, and a library of 250+ problems. | TypeScript · React · Node.js · visualization · AI-assisted learning |
+| **[Bazzite](https://github.com/ublue-os/bazzite)** · **[4 merged PRs](https://github.com/ublue-os/bazzite/pulls?q=is%3Apr+author%3Anileshchakraborty+is%3Amerged)** | Upstream fixes validated on a ROG Xbox Ally X, covering Steam input, Plasma keyboard behavior, Game Mode news channels, and scoped OpenGamepadUI diagnostics. | Linux · gaming handhelds · Steam · KDE Plasma · hardware validation |
 | **[MindFlip AI](https://github.com/nileshchakraborty/mindflipai)** | A clean-architecture study system for generating flashcards and quizzes with local-first and hybrid model runtimes. | TypeScript · Ollama · WebLLM · GraphQL · queues and caching |
 | **[Appointment Notifier](https://github.com/nileshchakraborty/appointment-notifier)** | Watches appointment signals, filters noise, deduplicates events, and delivers alerts across Telegram, email, SMS, WhatsApp, and iMessage. | Python · SQLite · Docker · OCR · multi-channel automation |
 | **[AIDOC](https://github.com/nileshchakraborty/ai-health-tracker)** | A privacy-first health assistant that combines local AI, wearable data, GraphQL, and a mobile client. | TypeScript · React Native · Ollama · Oura · local AI |
