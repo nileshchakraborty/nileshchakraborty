@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=760&lines=Software+Engineer+at+Salesforce;Founder+%26+Owner+%26+Inventor+of+Talos+Protocol;Building+AI+systems+that+earn+trust;From+protocols+to+products+to+production" alt="Animated introduction" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=39D0D8&center=true&vCenter=true&width=760&lines=Software+Engineer+at+Salesforce;Founder+of+Talos+Protocol;Building+AI+systems+that+earn+trust;From+protocols+to+products+to+production" alt="Animated introduction" />
 </p>
 
 <p align="center">
