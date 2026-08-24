@@ -14,7 +14,7 @@
 
 ## Hello, I’m Nilesh
 
-I’m a Software Engineer at Salesforce and the founder and owner of
+I’m a Software Engineer at Salesforce and the co-founder of
 [Talos Protocol](https://github.com/talosprotocol). I build systems across
 the whole path from protocol and backend design to product UX, infrastructure,
 testing, and operations.
